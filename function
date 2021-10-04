@@ -1,0 +1,39 @@
+
+ 
+ 
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Writing userdefined functions with arguments and returning values\n",
+    "def replace_negative(val):\n",
+    "    if val<0:\n",
+    "        out = 0\n",
+    "    else:\n",
+    "        out = val\n",
+    "    return out"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "# testing the above function\n",
+    "print(replace_negative(-19))\n",
+    "print(replace_negative(100))"
+   ]
+  },
+ 

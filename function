@@ -9,10 +9,10 @@
    "source": [
     "#Writing userdefined functions with arguments and returning values\n",
     "def replace_negative(val):\n",
-    "    if val<0:\n",
+    "    if val<=0:\n",
     "        out = 0\n",
     "    else:\n",
-    "        out = val\n",
+    "        out=out+val\n",
     "    return out"
    ]
   },
